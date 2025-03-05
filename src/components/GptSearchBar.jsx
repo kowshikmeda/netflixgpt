@@ -12,7 +12,7 @@ const GptSearchBar = () => {
   const fetchMovies = useGptSearch({ searchText: searchText.current?.value });
 
   const handleGptSearchClick = async () => {
-    console.log("Search Text:", searchText.current.value);
+    //console.log("Search Text:", searchText.current.value);
     setIsFinished(true);
     fetchMovies(); // Call the fetchMovies function when the button is clicked
     //searchText.current.value = ""; // Clear the input field

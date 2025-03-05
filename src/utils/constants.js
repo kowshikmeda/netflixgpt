@@ -21,3 +21,4 @@ export const API_OPTIONS={
 
   export const OPENAI_KEY=import.meta.env.VITE_OPENAI_API_KEY;
   export const GEMINI_API_KEY=import.meta.env.VITE_GEMINI_API_KEY;
+  
